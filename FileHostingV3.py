@@ -45,10 +45,10 @@ def keep_alive():
 # --- End Flask Keep Alive ---
 
 # --- Configuration ---
-TOKEN = '7577650534:AAHLFdvX7wzc0cekX6O5pgygUJbL1ZCFIP8' # Replace with your actual token
-OWNER_ID = 7750893567 # Replace with your Owner ID
-ADMIN_ID = 1996846379 # Replace with your Admin ID (can be same as Owner)
-YOUR_USERNAME = '@Divyansh_Gamer9' # Replace with your Telegram username (without the @)
+TOKEN = '7788103050:AAG8MipAsBBu5cdkwL91AkJmnPfeujaT1uE' # Replace with your actual token
+OWNER_ID = 706483179 # Replace with your Owner ID
+ADMIN_ID = 706483179 # Replace with your Admin ID (can be same as Owner)
+YOUR_USERNAME = '@Taisirshaik1' # Replace with your Telegram username (without the @)
 UPDATE_CHANNEL = 't.me/FFIDINFO' # Replace with your update channel link
 
 # Folder setup - using absolute paths
@@ -58,8 +58,8 @@ IROTECH_DIR = os.path.join(BASE_DIR, 'inf') # Assuming this name is intentional
 DATABASE_PATH = os.path.join(IROTECH_DIR, 'bot_data.db')
 
 # File upload limits
-FREE_USER_LIMIT = 3
-SUBSCRIBED_USER_LIMIT = 15 # Changed from 10 to 15
+FREE_USER_LIMIT = 20
+SUBSCRIBED_USER_LIMIT = 30 # Changed from 10 to 15
 ADMIN_LIMIT = 999       # Changed from 50 to 999
 OWNER_LIMIT = float('inf') # Changed from 999 to infinity
 # FREE_MODE_LIMIT = 3 # Removed as free_mode is removed
